@@ -1,3 +1,5 @@
+# WordPress Cache Busting
+
 Invalidate the browser cache of CSS e JS files loaded via wp_enqueue_script and wp_enqueue_style.
 
 The cache can be invalidated in one of two ways;
@@ -8,6 +10,16 @@ The cache can be invalidated in one of two ways;
 You need to choose the desired way at the asset level configuring the $this->assets array in the main class.
 
 Inspired by https://www.recolize.com/en/blog/wordpress-cache-busting-design-changes/
+
+# Install
+
+With Composer v2 or higher:
+
+```
+composer require idearia/wordpress-cache-busting
+```
+
+If you do not want to use Composer, just include the src/CacheBuster.php file.
 
 # Example
 
