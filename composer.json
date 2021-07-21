@@ -1,0 +1,14 @@
+{
+    "name": "idearia/wordpress-cache-busting",
+    "description": "Selectively invalidate browser cache in WordPress",
+    "keywords": ["wp","wordpress", "cache"],
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/Idearia/wordpress-cache-busting",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Idearia\\WordPressCacheBusting\\": "src/"}
+    }
+}
